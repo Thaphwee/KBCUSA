@@ -16,8 +16,8 @@ function loadKarenLanguage() {
         
         $(".lang").each(function(index, element) {
             $(this).text(data.karen[$(this).attr('key')]);
-            $(this).css("font-family","Saw cfcr000")
-            $(this).css("font-size", "23px");
+            // $(this).css("font-family","Saw cfcr000")
+            // $(this).css("font-size", "23px");
             $("h1").css("font-size", "60px");
 
             $(this).hover(function(){
